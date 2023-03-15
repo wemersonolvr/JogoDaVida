@@ -19,7 +19,7 @@ public class JogoDaVida {
         int contageracao = 1;
         // Continuar a gerar novas gerações até que o usuário digite "sair"
         while (true) {
-            System.out.println("Voce esta na " + contageracao + " Geracao. Pressione ENTER para gerar a proxima geracao ou digite 'Q' para encerrar o jogo.");
+            System.out.println("Voce esta na " + contageracao + " Geracao. Pressione ENTER para gerar a proxima geracao OU digite 'Q' para encerrar o jogo.");
             String entrada = scanner.nextLine();
             if (entrada.equalsIgnoreCase("q")) {
                 break;
