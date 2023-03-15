@@ -18,6 +18,7 @@ public class Main {
             }
           break;
         }
+        
         System.out.println("Obrigado por jogar!");
     }
 }
